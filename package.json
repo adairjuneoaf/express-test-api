@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
+    "dev:db": "docker-compose up -d",
     "dev": "npx nodemon --exec ts-node src/index.ts"
   },
   "keywords": [],
